@@ -4,10 +4,10 @@ This repository contains the implementation of image segmentation using the Deep
 
 ## Project Structure
 
-- `CustomDataset.py`: Defines the dataset class handling image and mask loading, along with transformations.
-- `dataset_preparation.py`: Prepares and splits the dataset into training, validation, and testing subsets.
-- `model_training.py`: Script to train the DeepLabV3 model on the processed dataset.
-- `evaluate_model.py`: Evaluates the model using precision, recall, F1-score, and IoU metrics.
+- `CustomDataset`: Defines the dataset class handling image and mask loading, along with transformations.
+- `dataset_preparation`: Prepares and splits the dataset into training, validation, and testing subsets.
+- `model_training`: Script to train the DeepLabV3 model on the processed dataset.
+- `evaluate_model`: Evaluates the model using precision, recall, F1-score, and IoU metrics.
 
 ## Features
 
